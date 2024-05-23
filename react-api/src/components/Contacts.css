@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+  }
+  
+  .card {
+    margin-left: 20px; /* Distance from the left */
+    margin-bottom: 20px; /* Space between cards */
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: adds a border to the card */
+    border-radius: 5px; /* Optional: rounds the corners of the card */
+  }
+  
+  .card:not(:last-child) {
+    border-bottom: 1px solid #ddd; /* Line between cards */
+  }
+  
